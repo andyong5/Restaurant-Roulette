@@ -1,4 +1,4 @@
-# Restaurant Tournament
+# Restaurant Tinder
 You can play the game here at https://resttinder.glitch.me/
 
 
