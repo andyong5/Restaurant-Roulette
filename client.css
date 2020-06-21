@@ -1,0 +1,27 @@
+ body{
+    background-color:#ff6b6b;
+     font-family: 'Open Sans', sans-serif;
+     height: 100vh;
+   overflow: hidden;
+    }
+#wait{
+  font-size:50px;
+  color:white;
+}
+  h1 {
+  font-style: italic;
+  
+  font-family: 'Open Sans', sans-serif;
+
+  color: white;
+  font-size: 40px;
+  
+  }
+.center{
+  padding-top:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:70%;
+  margin:5px;
+}

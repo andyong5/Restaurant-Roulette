@@ -1,0 +1,188 @@
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ff6b6b;
+}
+
+.startBtnCont{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+  h1 {
+  font-style: italic; 
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 40px;
+  }
+.shareMsg{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  text-align:center;
+  width: 100%;
+}
+.msg{
+  text-align: center;
+  color:white;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.container{
+  margin-left:10px;
+  margin-right:10px;
+}
+.label{
+  padding-top:20px;
+  font-size: 25px;
+}
+input{
+  width: 90%;
+  height:30px;
+  font-size:20px;
+}
+.searchButton{
+  padding-top:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+#searchFood{
+  width: 65%;
+  font-size: 20px;
+  height:50px;
+  border:2px solid black;
+}
+#startWarn{
+  margin:10px;
+  padding-top:20px;
+}
+ul{
+  margin:1px;
+}
+#searchResults{
+  padding-left: 10px;
+}
+#start{
+  width: 65%;
+  height: 50px;
+  font-size: 30px;
+  border:2px solid black;
+}
+  #searchResults{
+    display:flex;
+    flex-direction:column;
+  }
+#startDiv{
+  display:none;
+}
+#searchDiv{
+  display:none;
+}
+
+.autocomplete {
+  position: relative;
+  width: 100%;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9; 
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+@media(min-width: 770px) {
+  h1 {
+  font-style: italic;
+  color: white;
+  font-size:45px;
+  }
+  .msg{
+  text-align: center;
+  color:white;
+  padding-bottom: 20px;
+  font-size: 25px;
+  }
+  .container2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+  }
+
+.container{
+  padding-top:20px;
+  display:flex;
+  width:70%;
+  justify-content:center;
+    align-items:center;
+  }
+/*   <div class="searchButton">
+        <button id = "searchFood">
+          Search for List of Food
+        </button>
+      </div> */
+.searchButton{
+    padding-left: 10px;
+}
+  #startWarn{
+  width:70%;
+  text-align:center;
+    font-size:20px;
+}
+#searchFood{
+
+  width: 180px;
+  font-size: 16px;
+  height:50px;
+  border:2px solid black;
+}
+  .label{
+    padding-left:10px;
+    padding-bottom:5px;
+  }
+  input{
+    padding-top:5px;
+  }
+  #searchResults{
+    display:flex;
+    flex-direction:column;
+  }
+  .text{
+    font-size: 20px;
+  }
+  #start{
+  width: 30%;
+  height: 50px;
+  font-size: 30px;
+  border:2px solid black;
+}
+}

@@ -1,0 +1,213 @@
+body{
+  background-color:#ff6b6b;
+
+  font-family: 'Open Sans', sans-serif;
+
+}
+#waitingDiv{
+  display:none;
+}
+#winnerDiv{
+  display:none;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  }
+  .container2{
+    width:100%;
+   display:flex;
+  align-items:center;
+  justify-content:center;
+  }
+.centerContainer{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+h, p, button{
+  font-family: 'Open Sans', sans-serif;
+}
+.choice{
+  font-size: 30px;
+  color:white;
+  text-align:center;
+  margin-top:-1px;
+}
+.waiting{
+  padding-top:200px;
+  color:white;
+  font-size:50px;
+  text-align:center;
+}
+
+  h1 {
+  font-style: italic;
+  
+  font-family: 'Open Sans', sans-serif;
+
+  color: white;
+  font-size: 40px;
+  }
+
+.container{
+  height:100vh;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  
+}
+#rest1{
+  height:50%;
+  width:100%;
+  background-color:black;
+  display:flex;
+  flex-direction:column;
+}
+#winner{
+  height:50%;
+  width:100%;
+  background-color:black;
+  display:flex;
+  flex-direction:column;
+}
+#rest2{
+  height:50%;
+  width: 100%;
+  background-color:black;
+  display:flex;
+  flex-direction:column;
+}
+.img{
+  height:50%;
+  width:100%;
+}
+.text{
+  height:50%;
+  width:100%;
+  background-color:white;
+}
+.info{
+  
+}
+.margin{
+  margin:12px;
+}
+img{
+  height:100%;
+  width:100%;
+}
+
+#name2{
+  font-size:25px;
+}
+#name1{
+  font-size:25px;
+}
+#wname{
+  font-size:25px;
+}
+div{
+  font:serif;
+}
+.heart{
+/*   width: 50px;
+  height: 60px;
+  display: flex;
+  align-items:center;
+  justify-content:center; */
+/*   margin: 0px 0px 0px 450px; */
+  color:#ff6b6b;
+  font-size: 50px;
+  text-align:left;
+}
+
+.tie{
+  color: white;
+  font-size: 30px;
+  
+}
+
+
+.add{
+  font-size:15px;
+}
+.title{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+#dollar1{
+  font-size:20px;
+  font-weight: bold;
+}
+#dollar2{
+  font-size:20px;
+  font-weight:bold;
+}
+#stars1{
+  font-size:30px;
+}
+#stars2{
+  font-size:30px;
+}
+#wpic{
+  height:400px;
+  width:100%;
+}
+@media(min-width: 770px) {
+  
+  .heart{
+  color:#ff6b6b;
+  font-size: 60px;
+  text-align:right;
+}
+
+  .add{
+  font-size:18px;
+}
+  .container{
+    width:65%;
+    height: 100%;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+  }
+  main{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img{
+  max-height:400px;
+  width:100%;
+  height:400px;
+}
+  body{
+    top-padding:10px;
+  }
+  #pic1{
+    height:400px;
+    width:100%;
+  }
+    #pic2{
+    height:400px;
+    width:100%;
+  }
+  #winnerDiv{
+  display:none;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  width:60%;
+  }
+  .container2{
+    width:60%;
+   display:flex;
+  align-items:center;
+  justify-content:center;
+  }
+}

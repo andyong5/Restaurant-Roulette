@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <title>Restaurant Tinder</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  
+  <body>
+    <h1>Restaurant Tinder</h1>
+    
+    
+
+    <main>
+      
+      <div id="gamePage">
+        
+      
+
+    <div class="shareMsg">
+      <div class="msg">
+        Share this link with all other players:
+      </div>
+      <div class="msg" id="msg">
+      </div>
+    </div>
+      
+      <div class="container2">
+          <div class="container">
+      <div class="label">
+          Food:
+      </div>
+            
+      <div class="autocomplete">
+        <input type="text" id="food" placeholder="Thai, Filipino, Chinese, Vietnamese, Mediterranean" autocomplete="off">
+        
+            </div>
+      
+       <div class="label">
+          Location:
+      </div>
+      
+      <input type="text" id="location" placeholder="address, neighborhood, city, state or zip" autocomplete="off">
+      
+        </div>
+      </div>
+      
+      <div class="searchButton">
+        <button id = "searchFood" >
+          Get restaurants!
+        </button>
+      </div>
+  
+      <div id="warnDiv">
+        <div class="searchButton">
+            <p id="startWarn">
+            Search for a list of restaurants to start the game. 
+          </p>
+        </div>
+      </div>
+
+     <div id="searchDiv">
+      <div id="searchResults" class="searchButton">
+        <p class="text">
+      Search again for another list of retaurants.
+        </p>
+        
+        <ul id="list">
+            <li id="rt0"></li>
+            <li id="rt1"></li>
+            <li id="rt2"></li>
+            <li id="rt3"></li>
+            <li id="rt4"></li>
+            <li id="rt5"></li>
+            <li id="rt6"></li>
+            <li id="rt7"></li>
+            <li id="rt8"></li>
+            <li id="rt9"></li>
+            <li id="rt10"></li>
+            <li id="rt11"></li>
+            <li id="rt12"></li>
+            <li id="rt13"></li>
+            <li id="rt14"></li>
+            <li id="rt15"></li>
+        </ul>
+      
+    </div>
+      </div>
+    <div id="startDiv">
+    <div class="searchButton">
+        <button id = "start"  onclick="location.href = 'https://tinder-rest-2.glitch.me/game.html';">
+          Start Game!
+        </button>
+      </div>
+    </div>
+        
+   </div>
+  </main>
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

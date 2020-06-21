@@ -1,0 +1,153 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Websockets example</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/game.css">
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/game.js" defer></script>
+    
+    
+  </head>
+  
+  
+  <body>
+    
+    <h1>Restaurant Tinder</h1>
+    
+    <main>
+      <p class="tie" id="tie">
+      </p>
+      
+      <div class="container" id="selectDiv">
+        <div id="rest1">
+          <div class="img">
+             <img id="pic1">
+          </div>
+          <div class="text">
+            <div class="info">
+            <div class="margin">
+              
+              <div class="title">
+              <div id="name1">
+                
+              </div>
+              <div id="dollar1">
+              
+              </div>
+              </div>
+       
+              <div id="stars1">
+                empty
+              </div>
+      
+              <div>
+                Total Reviews - <span id="review1"></span>
+              </div>
+              <div id="address1" class="add">
+               
+              </div>
+            
+               <div class="heart" id="left">
+               	&#9825;
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div id="rest2">
+          <div class="img">
+             <img id="pic2">
+          </div>
+          <div class="text">
+            <div class="margin">
+            <div class="title">
+              <div id="name2">
+                
+              </div>
+              <div id="dollar2">
+              
+              </div>
+              </div>
+              <div id="stars2">
+                empty
+              </div>
+              <div>
+                Total Reviews - <span id="review2"></span>
+              </div>
+              <div id="address2" class="add">
+              
+              </div>
+             <div class="heart" id="right">
+               	&#9825;
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <div id="winnerDiv">
+      <div class="centerContainer">
+        <p class="choice">
+           <span id= "thereIsWinner">  
+            <span id="swname">restaurant</span> <span id="isWinner">won the round by popular vote.</span>
+           </span>
+           
+         
+      </p>
+        
+      </div>
+
+      <div class="container2">
+        <div id="winner">
+          <div class="img">
+             <img id="wpic">
+          </div>
+          <div class="text">
+            <div class="info">
+            <div class="margin">
+              
+              <div class="title">
+              <div id="wname">
+                
+              </div>
+              <div id="wdollar">
+              
+              </div>
+              </div>
+       
+              <div id="wstars">
+              </div>
+      
+              <div>
+                Total Reviews - <span id="wreview"></span>
+              </div>
+              <div id="waddress" class="add">
+               
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="centerContainer" id="waitingDiv">
+      <div class="waiting">
+        Waiting for other players to choose....
+      </div>
+    </div>
+    </main>
+
+  </body>
+</html>
